@@ -5,71 +5,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Website</title>
     <style>
-        /* Import the font from Google Fonts */
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        
+        /* for font */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-        /* Apply the imported font to the body */
         body {
-            font-family: 'Poppins', cursive; /* Set the font family */
+            font-family: 'Poppins', sans-serif;
+        }
+      
+        
+        header {
+            background-color:#BC85A3;
+            padding: 40px;
+            text-align: center;
+        } 
+        
+        main {
+            background-color: #F9E1E0;
+            padding: 40px;
         }
 
-        /* Additional styles for demonstration */
-        h1 {
-            font-size: 36px;
-            color: #0f0f0f;
+        footer {
+            background-color: #BC8583;
+            padding: 30px;
+            text-align: center;
         }
 
-        p {
-            font-size: 18px;
-            color: #0a0000;
+        body {
+            background-color: black;
         }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration:none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: #ccc;
+        }
+
         .container {
-            display: flex; /* Use flexbox for layout */
-            align-items: center; /* Center items vertically */
+            display: flex; 
+            align-items: center; 
         }
-
+        /* for fb, ig, and gmail */
         .emoji-size {
-            width: 25px; /* Adjust the size of the image */
-            height: auto; /* Maintain aspect ratio */
-            margin-right: 10px; /* Add some spacing between the image and text */
+            width: 30px; 
+            height: auto; 
+            margin-right: 10px; 
         }
-        body {
-            background-image: url(https://th.bing.com/th/id/OIP.mJujs-uNotdzWYCneOQ5OAHaNK?rs=1&pid=ImgDetMain); /* Set the background image */
-            background-size: cover; /* Cover the entire background */
-            background-repeat: no-repeat; /* Prevent repeating the image */
-        }
+        
     </style>
-</head>
+    </head>
 <body>
     <header>
        <h1>My First Website</h1>
        <nav>
         <ul>
-            <li><a href="#About Me">About Me &#x1F646;</a></li>
-            <li><a href="#Contact Me">Contact me &#x1F4DE; </li>
-            <li><a href="#Suggestion Box">Suggestion Box &#x1F5F3;;</a></li>
+            <li><a href="#About Me">About Me 🐝 </a></li>
+            <li><a href="#Contact Me">Contact me 📧 </li>
+            <li><a href="#Suggestion Box">Suggestion Box 💡</a></li>
         </ul>
        </nav>
     </header>
-<br />
-<hr />
-<br />
     <main>
         <section id="about">
             <div style="display: flex;">
                 <div style="flex: 1; padding: 20px;">
-                    <h2>About Me</h2>
-                    <p>Hello! I'm Minette Carascal, a mechanical engineer with a passion for innovation and a drive<br /> to expand my skills into the world of programming.</p>
-                    <p><h3>Background</h3></p>
+                    <h1>About Me 🐝</h1>
                     <p>
-                    I graduated with a Mechanical Engineering degree from <a href ="https://www.uno-r.edu.ph/" target="blank">University of Negros Occidental Recoletos</a><br />
-                    and successfully passed the <a href="https://www.manilatimes.net/2023/08/11/news/a-f-passers-august-2023-mechanical-engineer-licensure-exam-mele-results/1904904#:~:text=451%20CARASCAL%2C%20MINETTE%20AREVALO" target="_blank">Mechanical Engineering Licensure Examination on August of 2023.</a>
-                    My academic journey helped me gain skills in design, problem-solving, and project management. <p>
-                    <p>
-                        Despite lacking a background in programming, I'm excited about what lies ahead. I recognize that mastering it will require dedication and time, but I'm prepared to begin with the fundamentals and progress from there.
+                        Hello! I'm <strong>Minette Carascal</strong>, a Mechanical Engineer with a passion for innovation and a drive to expand my skills into the world of programming. I graduated with a Mechanical Engineering degree from <a href ="https://www.uno-r.edu.ph/" target="blank">University of Negros Occidental Recoletos</a>
+                        and successfully passed the <a href="https://www.manilatimes.net/2023/08/11/news/a-f-passers-august-2023-mechanical-engineer-licensure-exam-mele-results/1904904#:~:text=451%20CARASCAL%2C%20MINETTE%20AREVALO" target="_blank">Mechanical Engineering Licensure Examination on August of 2023.</a>
+                        My academic journey helped me gain skills in design, problem-solving, and project management. Despite lacking a background in programming, I'm excited about what lies ahead. I recognize that mastering it will require dedication and time, but I'm prepared to begin with the fundamentals and progress from there. I'm eager about the opportunities programming presents and anticipate the learning and development journey ahead. I dream of one day combining it with my mechanical engineering knowledge.
                     </p>
                     <p>
-                        I'm eager about the opportunities programming presents and anticipate the learning and development journey ahead. I dream of one day combining it with my mechanical engineering knowledge.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut arcu lectus. Integer nec massa feugiat, convallis risus et, hendrerit velit. Ut at odio urna. Morbi vel sem felis. Nulla facilisi. Proin in malesuada libero. Nunc sed aliquet enim. Nullam vehicula justo a velit malesuada, in scelerisque dui sollicitudin. Cras hendrerit leo non arcu euismod, nec commodo ex lacinia. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed at malesuada arcu. Sed fringilla lorem eget lectus pharetra, ut convallis nulla vestibulum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean id viverra mi. Integer ut augue nec est placerat tristique. Nam in lectus eu magna eleifend consequat. Cras nec felis ac ante tincidunt vehicula vel non dui.
+                        Duis nec mauris purus. Pellentesque a volutpat mauris. In tristique orci a lorem vestibulum, vel ultricies quam malesuada. Fusce pharetra tortor id arcu efficitur, ut dictum elit eleifend. Proin congue volutpat suscipit. Donec fermentum, mi sit amet finibus tempus, mi tortor lacinia eros, eget volutpat purus enim eu mauris. Vestibulum tempus nec mi sed suscipit. Duis vel aliquam ex. Integer et ex sed velit bibendum feugiat. Suspendisse nec felis eu sapien tristique volutpat. Aenean hendrerit sit amet enim vitae consectetur.
+                        Praesent ac ligula nec orci malesuada vestibulum. Cras efficitur diam a sapien mattis, eget suscipit velit molestie. Pellentesque nec tellus nec purus tempus sollicitudin. Donec nec sem sapien. Donec varius libero quis dui eleifend, vel rutrum velit dignissim. Duis congue, odio vitae dictum aliquet, erat velit tincidunt risus, nec tempor eros elit ac purus. Vestibulum vitae ullamcorper metus, non condimentum tellus. Nam vel nunc sit amet lectus blandit elementum. Sed dapibus laoreet ligula, ut faucibus enim finibus id. Cras tincidunt, quam quis sodales sollicitudin, odio justo condimentum tortor, sed interdum felis justo a eros. Suspendisse finibus sapien vel sapien feugiat, nec viverra mi aliquam. Suspendisse potenti. Aliquam tempor fringilla mi at faucibus. Morbi a sapien auctor, scelerisque dui sed, congue dui. Donec tincidunt odio non purus mattis, nec placerat orci aliquam. Pellentesque convallis magna at ante lobortis blandit.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit consequatur iusto suscipit necessitatibus debitis incidunt, aliquid iste atque? Nostrum id ea voluptate omnis corrupti, voluptatibus dignissimos quod fugit quis at.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos perferendis officiis hic voluptatibus quaerat necessitatibus magnam ad repellendus nisi magni! Quas distinctio beatae quos fuga ratione eveniet quis aut amet?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias dolore, praesentium aliquid sint tempora, obcaecati nesciunt quasi officiis ut totam tenetur nobis. Dolorum quod facere harum? Nulla ea architecto ipsum!
                     </p>
                 </div>
                 <div style="padding: 20px;">
@@ -78,11 +106,9 @@
                 </div>
             </div>
         </section>
-        <br />
         <hr />
-        <br />
         <section id="Contact Me">
-            <h2>Contact Me</h2>
+            <h1>Contact Me 📧</h1>
             <p>
                 <h4>
                     <div class="container">
@@ -101,11 +127,9 @@
                 </h4>
             </p>
         </section>
-        <br />
         <hr />
-        <br />
         <section id="Suggestion Box">
-            <h2>Suggestions for improvement</h2>
+            <h1>Suggestions for improvement💡</h1>
             <p>
                 <form method="post">
                     <label for="name"> Name: </label>
@@ -119,9 +143,6 @@
             </p>
         </section>
     </main>
-    <br />
-    <hr />
-    <br />
     <footer>
         <p>&copy;2024 OCC. All rights reserved.</p>
     </footer>
